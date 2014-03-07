@@ -9,6 +9,12 @@ body {
   background: linear-gradient(#356595,#4A5B63); /* Standard syntax */
 }
 
+/* resize/center aside image on title for EPA seal */
+aside.gdbar img {
+  width: 85px;
+  margin-top: 6px;
+}
+
 /*Changes to title slide*/
 .title-slide {
   background-color: rgba(0,0,0,0);
@@ -67,6 +73,20 @@ table tr > td:first-child {
   font-weight: 600;
   color: #4a5b63;
 }
+
+/* Font Color for .segue */
+.segue h2 {
+  color: #559B6A;
+}
+
+/* segue positioning */
+.segue:not(.title-slide) hgroup {
+  position: absolute;
+  bottom: 300px;
+  left: 500px;
+}
+
+
 
 
 
