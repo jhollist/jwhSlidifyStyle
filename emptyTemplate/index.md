@@ -40,3 +40,20 @@ First Row   | 1234567     |0.82       |5.95            |
 Second Row  | 89          |0.69       |5.02            |
 Third Row   | 100         |0.72       |7.0             |
 
+--- &twocol w1:50% w2:50%
+
+## R Code Chunk Example
+
+***=left
+Some data and a plot:
+
+
+```r
+data(mtcars)
+with(mtcars, boxplot(mpg ~ factor(cyl)))
+```
+
+
+***=right
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
+

@@ -125,6 +125,28 @@
   </article>
 </slide>
 
+<slide class="" id="">
+  <hgroup>
+    <h2>R Code Chunk Example</h2>
+    <br/>
+  </hgroup>
+  <article>
+      
+    <div class='left' style='float:left;width:50%'>
+      <p>Some data and a plot:</p>
+
+<pre><code class="r">data(mtcars)
+with(mtcars, boxplot(mpg ~ factor(cyl)))
+</code></pre>
+
+    </div>    
+    <div class='right' style='float:right;width:50%'>
+      <p><img src="assets/fig/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+    </div>
+  </article>
+</slide>
+
     <slide class="backdrop"></slide>
   </slides>
   <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
@@ -145,6 +167,12 @@
       <a href="#" target="_self" rel='tooltip' 
         data-slide=3 title='Header Across The Full Width of Both of the Columns'>
          3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='R Code Chunk Example'>
+         4
       </a>
     </li>
   </ul>
