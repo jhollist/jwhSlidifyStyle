@@ -22,6 +22,21 @@ mode        : selfcontained # {standalone, draft}
 
 ## Slide 2
 
+--- &twocol w1:20% w2:80%
 
+## Header Across The Full Width of Both of the Columns
 
+***=left
+
+- list
+- on the left 
+- side
+
+***=right
+
+Table       |Table        |Table      |Table           |
+------------|-------------|-----------|----------------|
+First Row   | 1234567     |0.82       |5.95            |
+Second Row  | 89          |0.69       |5.02            |
+Third Row   | 100         |0.72       |7.0             |
 
