@@ -2,7 +2,9 @@
 title       : jwhSlidifyStyle
 subtitle    : css hack
 author      : Jeff Hollister
-job         : 
+logo        : epa-seal.png
+biglogo     : epa-seal.png
+job         : Research Ecologist
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
